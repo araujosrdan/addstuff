@@ -1,3 +1,16 @@
+// Tornando o projeto em um PWA
+/*
+* Service worker é um script que o navegador executa em segundo plano, separado da página web.
+* Os navegadores que suportam esta API são Chrome, Firefox e Opera.
+* Edge e Safari estão iniciando o desenvolvimento e suporte à esta tecnologia.
+*/
+
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('sw.js')
+	.then((reg) => console.log("O serviço foi registrado corretamente!", reg))
+	.catch((err) => console.log("Ocorreu um erro ao tentar registrar o serviço!", err))
+}
+
 // Classe dos Items
 class Item {
 	constructor(title, desc, detail){
