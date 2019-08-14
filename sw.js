@@ -1,8 +1,8 @@
 //Variáveis
 const cacher = "site-static-v1";
 const assets = [
-  '/',
-  '/index.html',
+  '.',
+  'index.html',
   'assets/img/logo.png',
   'assets/img/512x512.png',
   'assets/img/256x256.png',
