@@ -1,0 +1,31 @@
+{
+    "name": "Addstuff by @dancodeweb",
+    "short_name": "Addstuff",
+    "start_url": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#FFFFFF",
+    "theme_color": "#347AB7",
+    "icons":[
+      {
+        "src": "assets/img/96x96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "assets/img/144x144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "assets/img/256x256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "assets/img/512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+}
