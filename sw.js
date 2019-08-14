@@ -33,5 +33,5 @@ self.addEventListener("controllerchange", evt => {
 
 //Busca por conteúdos
 self.addEventListener("fetch", evt => {
-
+  console.log("Conteúdo buscado, ", evt);
 });
